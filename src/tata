@@ -1,0 +1,1 @@
+cat *.c | grep '(' | grep -v ';' | grep -v " ("
