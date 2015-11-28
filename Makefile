@@ -26,6 +26,9 @@ SRC	= src/debug.c		\
 	src/my_strcmp.c		\
 	src/my_strstart.c	\
 	src/my_strends.c	\
+	src/my_strsub.c		\
+	src/my_strupper.c	\
+	src/my_strlower.c	\
 	src/my_malloc.c		\
 	src/my_bzero.c		\
 	src/my_atoi.c		\
@@ -36,7 +39,7 @@ OBJ	= $(SRC:.c=.o)
 
 NAME	= libmy.a
 
-CFLAGS	= -I./include -Wall -pedantic
+CFLAGS	= -I./include -Wall -pedantic -Werror -ansi
 
 all:     $(NAME)
 

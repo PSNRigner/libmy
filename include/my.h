@@ -40,6 +40,9 @@ t_bool	is_str_alphanum(char *str);
 t_bool	is_str_empty(char *str);
 char	*my_strdup(char *str);
 char	*my_strcat(char *str1, char *str2);
+char	*my_strupper(char *str);
+char	*my_strlower(char *str);
+char	*my_strsub(char *str, unsigned int start, unsigned int len);
 
 /*
 ** Memory functions
