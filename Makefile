@@ -9,6 +9,10 @@ SRC	= src/debug.c		\
 	src/my_putchar.c	\
 	src/my_putstr.c		\
 	src/my_putnbr.c		\
+	src/my_streq.c		\
+	src/my_putchar_fd.c	\
+	src/my_putstr_fd.c	\
+	src/my_putnbr_fd.c	\
 	src/my_strlen.c		\
 	src/is_char_nbr.c	\
 	src/is_char_alpha.c	\
@@ -19,9 +23,14 @@ SRC	= src/debug.c		\
 	src/is_str_empty.c	\
 	src/my_strdup.c		\
 	src/my_strcat.c		\
+	src/my_strcmp.c		\
+	src/my_strstart.c	\
+	src/my_strends.c	\
 	src/my_malloc.c		\
 	src/my_bzero.c		\
-	src/my_free.c
+	src/my_atoi.c		\
+	src/my_free.c		\
+	src/my_free_tab.c
 
 OBJ	= $(SRC:.c=.o)
 

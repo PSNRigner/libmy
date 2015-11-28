@@ -1,1 +1,3 @@
-cat ../include/my.h | grep '('
+echo "Done :" `cat *.c | grep '(' | grep -v ';' | grep -v " (" | wc -l`
+echo "Header :" `cat ../include/my.h | grep '(' | wc -l`
+echo "Makefile :" `cat ../Makefile | grep "\.c" | grep -v "\.o" | wc -l`
