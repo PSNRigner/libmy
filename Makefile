@@ -1,3 +1,12 @@
+##
+## Makefile for libmy in /home/Dev/Epitech/libmy
+## 
+## Made by frasse_l
+## Login   <frasse_l@epitech.net>
+## 
+## Started on  Sun Nov 29 16:51:27 2015 frasse_l
+## Last update Sun Nov 29 16:51:29 2015 frasse_l
+##
 
 CC	= gcc
 

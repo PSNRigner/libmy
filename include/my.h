@@ -1,3 +1,13 @@
+/*
+** my.h for libmy in /home/Dev/Epitech/libmy
+** 
+** Made by frasse_l
+** Login   <frasse_l@epitech.net>
+** 
+** Started on  Sun Nov 29 16:51:54 2015 frasse_l
+** Last update Sun Nov 29 17:01:27 2015 frasse_l
+*/
+
 #ifndef	MY_H_
 # define MY_H_
 
@@ -60,5 +70,4 @@ void	my_bzero(void *ptr, int size);
 # ifdef	DEBUG
 void	debug();
 # endif	/* !DEBUG */
-
 #endif	/* !MY_H_ */
