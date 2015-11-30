@@ -5,7 +5,7 @@
 ** Login   <frasse_l@epitech.net>
 ** 
 ** Started on  Sun Nov 29 16:51:54 2015 frasse_l
-** Last update Sun Nov 29 17:01:27 2015 frasse_l
+** Last update Mon Nov 30 02:12:58 2015 frasse_l
 */
 
 #ifndef	MY_H_
@@ -14,10 +14,18 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-# define TRUE	1
-# define FALSE	0	
+# define TRUE		1
+# define FALSE		0
+
+# define STRB_ALLOC	16
 
 typedef	char	t_bool;
+typedef	struct	s_strb
+{
+  char		*data;
+  int		current;
+  int		size;
+}		t_strb;
 
 /*
 ** Input & Output stream functions
@@ -55,6 +63,16 @@ char	*my_strlower(char *str);
 char	*my_strsub(char *str, unsigned int start, unsigned int len);
 
 /*
+** StringBuilder functions
+*/
+
+t_strb	*my_strbnew(char *str);
+char	*my_strbtostr(t_strb *strb);
+void	my_strbadd(t_strb *strb, char c);
+void	my_strbadds(t_strb *strb, char *str);
+void	my_strbrealloc(t_strb *strb);
+
+/*
 ** Memory functions
 */
 
@@ -70,4 +88,4 @@ void	my_bzero(void *ptr, int size);
 # ifdef	DEBUG
 void	debug();
 # endif	/* !DEBUG */
-#endif	/* !MY_H_ */
+#endif /* !MY_H_ */

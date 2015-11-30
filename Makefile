@@ -5,7 +5,7 @@
 ## Login   <frasse_l@epitech.net>
 ## 
 ## Started on  Sun Nov 29 16:51:27 2015 frasse_l
-## Last update Sun Nov 29 16:51:29 2015 frasse_l
+## Last update Mon Nov 30 01:48:09 2015 frasse_l
 ##
 
 CC	= gcc
@@ -42,7 +42,12 @@ SRC	= src/debug.c		\
 	src/my_bzero.c		\
 	src/my_atoi.c		\
 	src/my_free.c		\
-	src/my_free_tab.c
+	src/my_free_tab.c	\
+	src/my_strbrealloc.c	\
+	src/my_strbnew.c	\
+	src/my_strbtostr.c	\
+	src/my_strbadd.c	\
+	src/my_strbadds.c
 
 OBJ	= $(SRC:.c=.o)
 
