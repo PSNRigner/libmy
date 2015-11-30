@@ -5,7 +5,7 @@
 ## Login   <frasse_l@epitech.net>
 ## 
 ## Started on  Sun Nov 29 16:51:27 2015 frasse_l
-## Last update Mon Nov 30 02:29:33 2015 frasse_l
+## Last update Mon Nov 30 14:19:39 2015 frasse_l
 ##
 
 CC	= gcc
@@ -14,7 +14,7 @@ AR	= ar rc
 
 RAN	= ranlib
 
-SRC	= src/my_debug.c		\
+SRC	= src/my_debug.c	\
 	src/my_putchar.c	\
 	src/my_putstr.c		\
 	src/my_putnbr.c		\
