@@ -5,7 +5,7 @@
 ** Login   <frasse_l@epitech.net>
 ** 
 ** Started on  Sun Nov 29 16:51:54 2015 frasse_l
-** Last update Mon Nov 30 02:12:58 2015 frasse_l
+** Last update Mon Nov 30 02:29:17 2015 frasse_l
 */
 
 #ifndef	MY_H_
@@ -86,6 +86,6 @@ void	my_bzero(void *ptr, int size);
 */
 
 # ifdef	DEBUG
-void	debug();
+void	my_debug();
 # endif	/* !DEBUG */
 #endif /* !MY_H_ */
