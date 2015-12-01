@@ -5,7 +5,7 @@
 ** Login   <frasse_l@epitech.net>
 ** 
 ** Started on  Sun Nov 29 16:51:54 2015 frasse_l
-** Last update Mon Nov 30 02:29:17 2015 frasse_l
+** Last update Tue Dec  1 17:13:32 2015 frasse_l
 */
 
 #ifndef	MY_H_

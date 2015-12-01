@@ -5,7 +5,7 @@
 ** Login   <frasse_l@epitech.net>
 ** 
 ** Started on  Sun Nov 29 16:53:43 2015 frasse_l
-** Last update Sun Nov 29 16:53:45 2015 frasse_l
+** Last update Tue Dec  1 17:13:11 2015 frasse_l
 */
 
 #include "my.h"
@@ -24,6 +24,7 @@ int	my_atoi(char *str)
       if (!is_char_nbr(str[i]))
 	return (nbr * sign);
       nbr += str[i] - '0';
+      i++;
     }
   return (nbr * sign);
 }
