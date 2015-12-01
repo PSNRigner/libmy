@@ -5,7 +5,7 @@
 ** Login   <frasse_l@epitech.net>
 ** 
 ** Started on  Sun Nov 29 16:53:32 2015 frasse_l
-** Last update Sun Nov 29 16:53:33 2015 frasse_l
+** Last update Tue Dec  1 18:03:52 2015 frasse_l
 */
 
 #include "my.h"
@@ -20,7 +20,8 @@ t_bool	is_str_nbr(char *str)
   while (str[i])
     {
       if (!is_char_nbr(str[i]))
-	return (FALSE);
+	if (i != 0 || (str[i] != '-' && str[i] != '+'))
+	  return (FALSE);
       i++;
     }
   return (TRUE);
