@@ -5,7 +5,7 @@
 ## Login   <frasse_l@epitech.net>
 ## 
 ## Started on  Sun Nov 29 16:51:27 2015 frasse_l
-## Last update Mon Nov 30 14:19:39 2015 frasse_l
+## Last update Tue Dec  1 18:08:02 2015 frasse_l
 ##
 
 CC	= gcc
@@ -53,7 +53,7 @@ OBJ	= $(SRC:.c=.o)
 
 NAME	= libmy.a
 
-CFLAGS	= -I./include -Wall -pedantic -Werror -ansi
+CFLAGS	= -I./include -Wall -pedantic -Werror -ansi -Wextra
 
 all:     $(NAME)
 
